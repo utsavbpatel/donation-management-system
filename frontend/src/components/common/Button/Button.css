@@ -1,0 +1,19 @@
+.default-button {
+  padding: 7px 14px;
+  background-color: var(--p-color);
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-family: inherit;
+}
+
+.default-button:hover {
+  background-color: var(--dark-p-color);
+}
+
+.default-button:active {
+  background-color: var(--dark-p-color);
+}

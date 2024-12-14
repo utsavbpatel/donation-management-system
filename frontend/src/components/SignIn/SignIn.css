@@ -1,0 +1,79 @@
+.signin-main-container {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    overflow-y: scroll;
+}
+
+.signin-form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    background-color: #f3f3f3;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.signin-form-heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+}
+
+.colorfont {
+    color: var(--p-color);
+}
+
+.semiheader {
+    text-align: center;
+    font-weight: 700;
+    font-size: 20px;
+    /* color: rgb(48, 48, 48); */
+    color: #2b2b2b
+}
+
+.signin-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 450px;
+    gap: 20px;
+}
+
+.signin-form button {
+    width: 400px;
+}
+
+.bold {
+    font-weight: 600;
+    color: var(--p-color);
+}
+
+.signin-other-links p {
+    font-size: 17px;
+    font-weight: 400;
+}
+
+@media (max-width:1024px) {
+    .signin-form-container {
+        width: 350px;
+    }
+
+    .signin-form {
+        width: 300px;
+    }
+
+    .signin-form button {
+        width: 300px;
+    }
+}

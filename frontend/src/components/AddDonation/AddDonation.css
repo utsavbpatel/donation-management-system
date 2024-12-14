@@ -1,0 +1,195 @@
+.adddonation-form-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.adddonation-form-content {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  width: 400px;
+  max-width: 100%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  position: relative;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.adddonation-form-heading {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.adddonation-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.adddonation-form select {
+  height: 50px;
+  border-radius: 5px;
+  width: 100%;
+  max-width: 400px;
+}
+
+.autoselect-checkbox-container {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  justify-content: flex-start;
+  width: 100%;
+  padding: 0 5px;
+}
+
+.datetime-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+
+.adddonation-main-container {
+  padding: 10px 15px;
+  width: 100%;
+  height: 100%;
+}
+
+.adddonation-heading {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 40px;
+}
+
+.adddonation-filter-container {
+  height: 40px;
+  margin-top: 10px;
+}
+
+.adddonation-content {
+  margin-top: 10px;
+  height: calc(100% - 100px);
+  background-color: white;
+  padding: 20px;
+  /* border-radius: 10px; */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.adddonation-content::-webkit-scrollbar {
+  height: 8px;
+  width: 8px;
+}
+
+.adddonation-content::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 4px;
+}
+
+.adddonation-content::-webkit-scrollbar-thumb:hover {
+  background-color: #555;
+}
+
+.adddonation-content::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+.adddonation-heading p {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.adddonation-filter-container {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.adddonation-filter-container select {
+  min-width: 50px;
+  width: 100%;
+}
+
+.adddonation-content button {
+  width: 150px;
+}
+
+.table-icons-container {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+thead {
+  background-color: #f4f4f4;
+}
+
+thead th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #ffffff;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #fafafa;
+}
+
+tbody td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+tbody tr:hover {
+  background-color: #f1f1f1;
+}
+
+.table-actionicons i {
+  cursor: pointer;
+  margin: 0 5px;
+}
+
+.table-actionicons i:hover {
+  color: #007bff;
+}
+
+.table-actionicons {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width:1024px) {
+  .adddonation-form select {
+    max-width: 350px;
+  }
+}
