@@ -96,8 +96,8 @@ Follow the steps below to set up and run the **Donation Management System** on y
 ## Features Demonstration
 
 ### 1. Signup and Signin
-![Signup Page](./images/signup.jpg "Signup Page")
-![Signin Page](./images/signin.jpg "Signup Page")
+![Signup Page](./images/signup.JPG "Signup Page")
+![Signin Page](./images/signin.JPG "Signup Page")
 
 ### 2. Dashboard
 ![Dashboard_Page](./images/dashboard.JPG "Dashboard Overview")
