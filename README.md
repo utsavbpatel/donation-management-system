@@ -100,21 +100,21 @@ Follow the steps below to set up and run the **Donation Management System** on y
 ![Signin Page](./images/signin.jpg "Signup Page")
 
 ### 2. Dashboard
-![Dashboard_Page](./images/dashboard.jpg "Dashboard Overview")
+![Dashboard_Page](./images/dashboard.JPG "Dashboard Overview")
 
 ### 3. Categories
-![Categories_Page](./images/categories.jpg "Categories_Page")
+![Categories_Page](./images/categories.JPG "Categories_Page")
 
 ### 4. Add Donation
-![Add_Donation_1](./images/adddonation1.jpg "Add_Donation_1")
-![Add_Donation_2](./images/adddonation2.jpg "Add_Donation_2")
+![Add_Donation_1](./images/adddonation1.JPG "Add_Donation_1")
+![Add_Donation_2](./images/adddonation2.JPG "Add_Donation_2")
 
 ### 5. My Account
-![My_Account](./images/myaccount.jpg "My_Account")
+![My_Account](./images/myaccount.JPG "My_Account")
 
 ### 6. Download Receipt and Report
-![Receipt](./images/printreceipt.jpg "Receipt")
-![Report](./images/printreport.jpg "Report")
+![Receipt](./images/printreceipt.JPG "Receipt")
+![Report](./images/printreport.JPG "Report")
 
 ## Contact
 
